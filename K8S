@@ -1,0 +1,8 @@
+Pod
+ReplicationController
+Services
+Kubernetes Objects:
+Port Forwarding
+Define a liveness probe for your project
+You usually won’t create them directly, but instead have them created automatically when you create the higher-level Deployment resource.
+Kubernets Scheduling: Assign/Deploy different resources to/on different nodes.
