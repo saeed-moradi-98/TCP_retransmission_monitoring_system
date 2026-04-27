@@ -12,3 +12,4 @@ This project tracks the number of retransmitted TCP packets between microservice
 4. Kubernetes
 6. Prometheus
 
+To properly execute the project, you need to have a server with multiple Docker containers which communicate with each other through Pods.
