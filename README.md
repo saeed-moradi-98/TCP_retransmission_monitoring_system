@@ -23,10 +23,10 @@ In distributed systems, TCP retransmissions are a key signal of network degradat
 │         ┌─────────────────┐                     │
 │         │  Monitoring     │                     │
 │         │  Agent (Go)     │  ← reads kernel     │
-│         │                 │    TCP stats         │
+│         │                 │    TCP stats        │
 │         └────────┬────────┘                     │
-│                  │ /metrics                      │
-│                  ▼                               │
+│                  │ /metrics                     │
+│                  ▼                              │
 │         ┌─────────────────┐                     │
 │         │   Prometheus    │                     │
 │         └─────────────────┘                     │
